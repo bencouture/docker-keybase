@@ -6,6 +6,8 @@ RUN \
 	apt-get update && apt-get install -y \
 		fuse \
 		libappindicator1 \
+		libgconf-2-4 \
+		psmisc \
 		--no-install-recommends \
 
 	# Get and verify Keybase.io's code signing key
